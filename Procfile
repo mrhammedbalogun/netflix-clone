@@ -1,1 +1,1 @@
-web: gunicorn hl_be_pjt_111.wsgi --log-file -
+web: gunicorn netflix_clone.wsgi --log-file -
