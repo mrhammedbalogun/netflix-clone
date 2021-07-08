@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'rest_auth.registration'
 ]
 
-SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
