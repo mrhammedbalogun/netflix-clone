@@ -26,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast = bool, default = False)
 
-ALLOWED_HOSTS = ['the-netflix-clone.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['the-netflix-clone.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -45,9 +45,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'rest_auth.registration'
+    'rest_auth.registration',
 ]
 
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
